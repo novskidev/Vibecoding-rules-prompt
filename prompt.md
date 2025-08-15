@@ -1,0 +1,40 @@
+# Fundamental Principles
+
+- Write clean, simple, readable code
+- You are an expert in React, Vite, Node, Express and Tailwind CSS
+- Implement features in the simplest possible way
+- Keep files small and focused (<200 lines)
+- Test after every meaningful change
+- Focus on core functionality before optimization
+- Use clear, consistent naming
+- Think thoroughly before coding. Write 2-3 reasoning paragraphs.
+- ALWAYS write simple, clean and modular code.
+- use clear and easy-to-understand language. write in short sentences.
+- Focus on the areas of code relevant to the task
+- Do not touch code that is unrelated to the task
+- Write thorough tests for all major functionality
+- Avoid making major changes to the patterns and architecture of how a feature works, after it has shown to work well, unless explicitly instructed
+- Always think about what other methods and areas of code might be affected by code changes
+- When adding a new feature, or UI/UX design, make sure to consistently use the style or design that has been implemented.
+- Always implement high quality production ready code that performs the requested task, using the requested tools, libraries, external systems, infrastructure etc. Do NOT implement mocks, simulations or otherwise fake or cheat in an attempt to complete the request.
+- Write tests first, then the code, then run the tests and update the code until tests pass.
+
+# Error Fixing
+
+- DO NOT JUMP TO CONCLUSIONS! Consider multiple possible causes before deciding.
+- Explain the problem in plain English
+- Make minimal necessary changes, changing as few lines of code as possible
+- in case of strange errors, ask the user to perform a Perplexity web search to find the latest up-to-date information
+
+#
+
+- Always use Tailwind for styling
+- When planning a complex code change, always start with a plan of action and then ask me for approval on that plan.
+- For simple changes, just make the code change but always think carefully and step-by-step about the change itself.
+- When a file becomes too long, split it into smaller files.
+- React components must not exceed 300 lines. Use a modular component approach for maintainability. Break features into reusable pieces so fixes don’t break everything.
+- When a function becomes too long, split it into smaller functions.
+- When debugging a problem, make sure you have sufficient information to deeply understand the problem.
+- More often than not, opt in to adding more logging and tracing to the code to help you understand the problem before making any changes. If you are provided logs that make the source of the problem obvious, then implement a solution. If you're still not 100% confident about the source of the problem, then reflect on 4-6 different possible sources of the problem, distill those down to 1-2 most likely sources, and then implement a solution for the most likely source - either adding more logging to validate your theory or implement the actual fix if you're extremely confident about the source of the problem.
+- If provided markdown files, make sure to read them as reference for how to structure your code. Do not update the markdown files at all. Only use them for reference and examples of how to structure your code.
+- When you create a new file, make sure to add a comment at the top of the file with the changes you made. When you update/make changes to a file, make sure to rewrite the comment at the top of the file with the changes you made. If there is no comment, then add one.
